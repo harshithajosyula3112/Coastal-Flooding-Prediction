@@ -5,13 +5,13 @@ Produces publication-quality plots for the coastal flooding project.
 
 Figures generated
 ─────────────────
-1. time_series.png      — Observed water level + predicted flood probability
-2. roc_curves.png       — ROC curves for all three models
-3. pr_curves.png        — Precision-Recall curves
-4. confusion_matrix.png — Ensemble confusion matrix heatmap
-5. feature_importance.png — XGBoost top-20 features (gain)
-6. shap_summary.png     — SHAP beeswarm (if shap installed)
-7. flood_events.png     — Zoomed view of individual storm events
+1. time_series.png      - Observed water level + predicted flood probability
+2. roc_curves.png       - ROC curves for all three models
+3. pr_curves.png       - Precision-Recall curves
+4. confusion_matrix.png - Ensemble confusion matrix heatmap
+5. feature_importance.png - XGBoost top-20 features (gain)
+6. shap_summary.png     - SHAP beeswarm (if shap installed)
+7. flood_events.png     - Zoomed view of individual storm events
 """
 
 import logging
