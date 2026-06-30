@@ -1,9 +1,7 @@
 # Coastal Flooding Prediction
 ### LSTM + XGBoost Ensemble
 
-> **Author:** Harshitha Josyula · MS Data Science, UMBC (4.0 GPA)  
 > **Stack:** Python · TensorFlow/Keras · XGBoost · NOAA CO-OPS API · SHAP  
-> **Recognition:** iHARP ML Challenge · Published open-source pipeline
 
 ---
 
