@@ -1,5 +1,5 @@
 # Coastal Flooding Prediction
-### iHARP ML Challenge · LSTM + XGBoost Ensemble
+### LSTM + XGBoost Ensemble
 
 > **Author:** Harshitha Josyula · MS Data Science, UMBC (4.0 GPA)  
 > **Stack:** Python · TensorFlow/Keras · XGBoost · NOAA CO-OPS API · SHAP  
@@ -214,26 +214,6 @@ Edit `src/model_xgb.py`, set `tune=True` when instantiating `XGBForecaster`, or 
 ### Multi-horizon prediction
 The pipeline already creates `flood_next_1h`, `flood_next_3h`, `flood_next_6h` labels. Train separate models per horizon to build a full early-warning system.
 
----
 
-## Citation
 
-```bibtex
-@misc{josyula2025coastal,
-  author    = {Josyula, Harshitha},
-  title     = {Coastal Flooding Prediction: LSTM + XGBoost Ensemble on NOAA Tide-Gauge Data},
-  year      = {2025},
-  publisher = {GitHub},
-  url       = {https://github.com/harshithajosyula3112/coastal-flooding-prediction}
-}
-```
 
----
-
-## License
-
-MIT — free to use, modify, and distribute with attribution.
-
----
-
-*Built as part of the iHARP ML Challenge · UMBC Department of Information Systems · 2025*
